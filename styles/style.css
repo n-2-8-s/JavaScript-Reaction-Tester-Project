@@ -1,0 +1,144 @@
+
+.background{
+    background-color:#BFD4DB;
+    margin-top:-30px;
+    height:1000px;
+}
+
+.fixedwidth{
+    width:1200px;
+    margin:0 auto;
+}
+
+body{
+    font-family:Verdana, Geneva, sans-serif;
+    margin:0;
+
+}
+
+.title{
+    margin:0;
+    padding: 20px 5px 10px 25px;
+    margin-left:400px;
+    margin-top:30px;
+    color:cadetblue;
+    border-style:solid;
+    border-color:lightpink;
+    border-width: 5px;
+    width:320px;
+    background-color:white;
+    position:relative;
+    font-size:160%
+}
+
+#titleButton{
+    margin:0;
+    margin:10px 0px 0px 440px;
+
+
+}
+
+.clear{
+    clear:both;
+}
+
+.diffVary{
+    margin:0;
+    margin: 30px 0px 0px 15px;
+    border-style:solid;
+    border-radius: 50px;
+    border-color:black;
+    font-weight:bold;
+    color:cadetblue;
+    width:90px;
+    height:40px;
+    padding: 25px 20px 0px 40px;
+
+}
+
+.diffVary:hover {
+    background-color:white;
+}
+
+.timeBox{
+    margin:0;
+    margin:15px -50px 30px 30px;
+    float:right;
+    border-style:ridge;
+    border-color: black;
+    border-radius: 10px;
+    width:200px;
+    height:40px;
+    padding: 20px 10px 0px 20px;
+    background-color:white;
+    font-weight:bold;
+    position:relative;
+
+}
+
+.scoreBox{
+    margin:0;
+    margin-top:-100px;
+    float:right;
+    border-style:ridge;
+    border-color: black;
+    border-radius: 10px;
+    width:150px;
+    height:40px;
+    padding: 20px 10px 0px 20px;
+    background-color:white;
+    font-weight:bold;
+}
+
+#result {
+    padding:0;
+    font-weight:bold;
+    font-size:400%;
+    width:700px;
+    height:80px;
+    border-radius:5px;
+    border-color:darkgoldenrod;
+    border-style:solid;
+    background-color:white;
+    text-align:center;
+    padding: 20px 20px 20px 15px;
+    margin: 300px 300px 0px 10px;
+    position:static;
+    display:none;
+
+}
+
+#tryagain{
+    font-weight:bold;
+    font-size:300%;
+    width:400px;
+    height:80px;
+    border-radius:5px;
+    border-color:black;
+    border-style:solid;
+    background-color:lightyellow;
+    color:orangered;
+    text-align:center;
+    padding: 15px 10px 0px 5px;
+    margin: 20px 0 0 150px;
+    position:relative;
+    display:none;
+
+}
+
+#Box{
+    width:200px;
+    height:200px;
+    border-style:solid;
+    position:relative;
+    display:none;
+}
+
+#border{
+    width:750px;
+    height:500px;
+    border-width: 10px;
+    border-style:solid;
+    background-color: #FFC0CB;
+    margin:-260px 0px 0px 200px;
+}
